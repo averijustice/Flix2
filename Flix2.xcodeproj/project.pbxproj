@@ -15,6 +15,7 @@
 		257A34E223F75DF10094D13D /* Flix2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257A34E123F75DF10094D13D /* Flix2Tests.swift */; };
 		257A34ED23F75DF10094D13D /* Flix2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257A34EC23F75DF10094D13D /* Flix2UITests.swift */; };
 		257A34FB23F7616F0094D13D /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257A34FA23F7616F0094D13D /* MoviesViewController.swift */; };
+		257A34FD23F767240094D13D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257A34FC23F767240094D13D /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		257A34EC23F75DF10094D13D /* Flix2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flix2UITests.swift; sourceTree = "<group>"; };
 		257A34EE23F75DF10094D13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257A34FA23F7616F0094D13D /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		257A34FC23F767240094D13D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				257A34C923F75DEF0094D13D /* Flix2 */,
-				257A34FA23F7616F0094D13D /* MoviesViewController.swift */,
 				257A34E023F75DF10094D13D /* Flix2Tests */,
 				257A34EB23F75DF10094D13D /* Flix2UITests */,
 				257A34C823F75DEF0094D13D /* Products */,
@@ -103,9 +104,11 @@
 				257A34CA23F75DEF0094D13D /* AppDelegate.swift */,
 				257A34CC23F75DEF0094D13D /* SceneDelegate.swift */,
 				257A34D023F75DEF0094D13D /* Main.storyboard */,
+				257A34FC23F767240094D13D /* MovieCell.swift */,
 				257A34D323F75DF10094D13D /* Assets.xcassets */,
 				257A34D523F75DF10094D13D /* LaunchScreen.storyboard */,
 				257A34D823F75DF10094D13D /* Info.plist */,
+				257A34FA23F7616F0094D13D /* MoviesViewController.swift */,
 			);
 			path = Flix2;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				257A34CB23F75DEF0094D13D /* AppDelegate.swift in Sources */,
 				257A34CD23F75DEF0094D13D /* SceneDelegate.swift in Sources */,
+				257A34FD23F767240094D13D /* MovieCell.swift in Sources */,
 				257A34FB23F7616F0094D13D /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
